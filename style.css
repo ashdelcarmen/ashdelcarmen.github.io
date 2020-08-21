@@ -1,3 +1,57 @@
-p {
-  color: red;
+body{
+  background-image:linear-gradient(lightblue,white);
+  background-repeat: no-repeat;
+}
+
+.container{
+  background-image: url(paper.jpg);
+  border-style: solid;
+  border-radius: 15px;
+  margin:auto;
+  margin-top: 20px;
+  width: 570px;
+}
+
+.block{
+  border-top-style: solid;
+  border-width:thin;
+}
+
+#personal{
+  margin-left: 30px;
+  margin-bottom: 32px;
+}
+
+.content{
+  margin-left: 40px;
+}
+
+#profile{
+  margin-right: -3px;
+  margin-top: -3px;
+  width:200px;
+  height:200px;
+  float: right;
+  border-radius: 0px 12px 0px 0px;
+  border-style: solid;
+  object-fit:cover;
+}
+
+#spotify{
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#contactinfo{
+  margin-left: 30px;
+  margin-top: -20px;
+  margin-bottom:20px;
+}
+
+h1{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 30px;
+  text-decoration:underline;
 }
